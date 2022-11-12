@@ -11,6 +11,7 @@ public class addFirst {
         list.deleteMid(2);
         list.print();
 
+
 //        list.print();
 //        System.out.println("---------------After deletion of first element------------");
 //        list.deleteFirst();
@@ -22,7 +23,7 @@ public class addFirst {
     }
 //                   TODO ----------------Implement LL class and Node----------------
     static class LL{
-        Node head;
+      Node head;
         class Node{
             String data;
             Node next;
